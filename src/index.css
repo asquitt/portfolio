@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+.glass {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  backdrop-filter: blur(12px);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ffffff, #a1a1aa, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
